@@ -1,0 +1,115 @@
+(defvar *home-dir* "/Users/Prashanth/")
+(defvar *package-dir* (concat *home-dir* ".emacs.d/"))
+(add-to-list 'load-path (concat *package-dir* "color-theme"))
+(add-to-list 'load-path (concat *package-dir* "magit"))
+(add-to-list 'load-path (concat *package-dir* "jade-mode"))
+(add-to-list 'load-path (concat *package-dir* "other"))
+
+
+(setq font-lock-maximum-decoration t)
+(setq require-final-newline t)
+(setq resize-minibuffer-frame t)
+(setq column-number-mode t)
+(setq-default transient-mark-mode t)
+(setq next-line-add-newlines nil)
+(setq blink-matching-paren t)
+(setq blink-matching-delay .25)
+(global-font-lock-mode 1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(show-paren-mode t)
+(set-scroll-bar-mode 'nil)
+(savehist-mode 1)
+(setq truncate-partial-width-windows nil)
+(setq x-select-enable-clipboard t)
+
+(setq mac-option-key-is-meta nil)
+(setq mac-command-key-is-meta t)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+(server-start)
+
+(setq inhibit-splash-screen t)
+
+(set-frame-font "-apple-Inconsolata-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
+(set-face-attribute 'default nil :height 180)
+
+
+
+(require 'color-theme)
+(setq color-theme-initialize t)
+(setq color-theme-is-global t)
+
+(load-file (concat *package-dir* "color-theme/themes/tango-2-theme.el"))
+
+;; Makes buffer name unique
+
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+
+;; Makes buffer ring lookup
+(require 'ido)
+(ido-mode t)
+
+;;;;;
+;; Git
+;;;;
+
+(require 'magit)
+
+;;;;;;;;;;;;
+;; Template engine
+;;;;;;;;;;;
+
+
+(require 'sws-mode)
+(require 'jade-mode)    
+(add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
+(add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+
+
+;;;;
+;; Auto mode
+;;;;
+
+(add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
+
+
+;; ----------------------------------------
+;; Kill current buffer without confirmation
+;; ----------------------------------------
+
+(global-set-key "\C-xk" 'kill-current-buffer)
+
+(defun kill-current-buffer ()
+  "Kill the current buffer, without confirmation."
+  (interactive)
+  (kill-buffer (current-buffer)))
+
+
+;; ---------
+;; TAB Setup
+;; ---------
+
+(setq-default tab-width 4
+              standard-indent 4
+              indent-tabs-mode nil
+              tab-width 8)
+
+
+
+
+
+;; (require 'maxframe)
+;; (add-hook 'window-setup-hook 'maximize-frame t)
+
+;; (defvar maxframe-maximized-p nil "maxframe is in fullscreen mode")
+
+;; (defun toggle-maxframe ()
+;;   "Toggle maximized frame"
+;;   (interactive)
+;;   (setq maxframe-maximized-p (not maxframe-maximized-p))
+;;   (cond (maxframe-maximized-p (maximize-frame))
+;;         (t (restore-frame))))
+
+;; (toggle-maxframe)
