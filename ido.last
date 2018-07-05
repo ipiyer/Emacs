@@ -1,0 +1,47 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/prashanthiyer/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/prashanthiyer/clojure-noob/" . "src/")
+ ("/Users/prashanthiyer/" . "clojure-noob/")
+ ("/Users/prashanthiyer/.emacs.d/" . "customizations/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/prashanthiyer/clojure-noob/src/clojure_noob/"
+ "/Users/prashanthiyer/.emacs.d/customizations/"
+ "/Users/prashanthiyer/.emacs.d/"
+ "/Users/prashanthiyer/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "ui.el"
+ "editing.el"
+ "init.el"
+ "*sample*"
+ "foo.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/" (23048 34456 702753 881000) "Guest/" "Shared/" ".localized" "prashanthiyer/" "../" "./")
+
+ ("/Users/prashanthiyer/.emacs.d/" (23357 43795 59963 871000) ".recentf~" ".smex-items" "cider-history" "backups/" "themes/" "elpa/" "network-security.data" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "ido.last~" "customizations/" "ido.last" "init.elc" "../" "./")
+
+ ("/Users/prashanthiyer/.emacs.d/customizations/" (23357 43792 732966 447000) "elisp-editing.el" "ui.el~" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "shell-integration.el" "ui.el" "../" "./")
+
+ ("/Users/prashanthiyer/clojure-noob/src/clojure_noob/" (23357 26075 478647 396000) "core.clj" "../" "./")
+
+ ("/Users/prashanthiyer/clojure-noob/" (23357 43752 434046 915000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/prashanthiyer/clojure-noob/src/" (23356 19163 370901 748000) "clojure_noob/" "../" "./")
+
+ ("/Users/prashanthiyer/" (23357 17488 665194 336000) ".go-pry_history" "stripe/" ".glide/" "heif/" "react-monthrange-picker/" ".viminfo" ".bash_history" "express-hbsc/" ".gitconfig" ".cache/" ".python_history" "Downloads/" "Booking Success.pdf" "mobius_cert/" ".oh-my-zsh/" ".gem/" "sample-build/" "71fRVXPZBUL._SY679_.jpg" ".m2/" "roku/" ".mysql_history" "Documents/" "d3chart/" ".npm/" "foo.pgn" "cv/" ".zcompdump" ".Trash/" "Dropbox/" ".zsh-update" "mobius_keys/" "data_dump.bk/" ".slate" "Applications/" ".zcompdump-Prashanth’s MacBook Pro-5.3" "Movies/" ".ssh/" ".v8flags.5.1.281.84.root.json" "watchifyfor.me/" "foo/" "dump_shit/" ".zcompdump-Prashanth’s MacBook Pro-5.2" "excel-dumps/" ".v8flags.6.2.414.50.prashanthiyer.json" ".kube/" "gitlab.mobiusjustice.com/" ".dropbox/" "Public/" "clojure-noob/" "audio/" ".lein/" ".sbt/" "spark-2.3.0-bin-hadoop2.7/" "Google Drive/" "test_scala/" ".cups/" "dashboard/" "foo.pgn~" ".node_repl_history" "pr/" ".emacs.d/" ".minikube/" "trackr.run/" ".oracle_jre_usage/" ".lesshst" "juv_bucket/" "test_f/" ".matplotlib/" ".npmrc" "Library/" ".v8flags.5.1.281.81.prashanthiyer.json" "Desktop/" ".ipython/" ".zsh_history" "unmatched_codes.txt" ".boto" "algo/" "madhuri/" ".clojure_history" ".rnd" ".nvm/" ".gore/" "lab/" "website/" ".atom/" ".zshrc.backup" ".scalac/" "Pictures/" "referral_extract.sql" "Creative Cloud Files/" ".psql_history" ".local/" ".v8flags.5.4.500.36.prashanthiyer.json" "ci/" "perf_test/" ".zshrc" "data_dump/" "golang/" "81Kd1JzhLfL._SY679_.jpg" "learn_go/" "docker-compose-nodejs-examples/" ".wget-hsts" "mule_soft/" "test/" ".CFUserTextEncoding" "testapp/" "foo.pgn.gpg" "gs/" ".zshrc~" ".gnupg/" ".DS_Store" "go/" "juvenile/" "audio-rip/" "box/" ".v8flags.5.1.281.84.prashanthiyer.json" "audio1/" ".node-gyp/" ".ivy2/" ".gsutil/" "july_19/" ".docker/" ".clojure/" "gitlab.rtf" "vyaya/" ".yarn/" "lodash/" "Music/" "track.it/" ".config/" "coding_test/" ".dockercfg" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

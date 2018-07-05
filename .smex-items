@@ -1,0 +1,38 @@
+
+;; ----- smex-history -----
+(
+ byte-compile-file
+ set-frame-font
+ quit-window
+ split-window-vertically
+ window-toggle-side-windows
+ window-swap-states
+ cider-jack-in
+)
+
+;; ----- smex-data -----
+(
+ (tool-bar-mode . 1)
+ (goto-line . 1)
+ (load-file . 1)
+ (smex . 1)
+ (buffer-menu . 2)
+ (kill-current-buffer . 3)
+ (describe-key . 1)
+ (open-rectangle . 5)
+ (copy-region-as-kill . 1)
+ (string-rectangle . 4)
+ (delete-region . 2)
+ (replace-regexp . 2)
+ (package-install . 8)
+ (byte-compile-file . 5)
+ (package-menu-mode . 3)
+ (list-packages . 1)
+ (cider-jack-in . 1)
+ (window-swap-states . 1)
+ (window-toggle-side-windows . 1)
+ (split-window-vertically . 1)
+ (quit-window . 1)
+ (paredit-forward . 1)
+ (set-frame-font . 2)
+)
